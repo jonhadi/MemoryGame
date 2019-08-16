@@ -1,6 +1,8 @@
 import React from 'react';
-import NavBar from './components/NavBar';
 import Wrapper from './components/Wrapper';
+import NavBar from './components/NavBar';
+import Jumbotron from './components/Jumbotron';
+import GameBoard from './components/GameBoard';
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,6 +10,8 @@ function App() {
   return (
     <Wrapper>
     <NavBar>This Item</NavBar>
+    <Jumbotron>Card</Jumbotron>
+    <GameBoard></GameBoard>
 
     <div className="App">
       <header className="App-header">
