@@ -11,17 +11,46 @@ class App extends Component {
   //set state variables
   state = {
     characters,
-    scores: {
-      currentScore: 0,
-      highScore: 0
-    }
+    charactersClicked: [],
+    navMessage: "Click an Image to begin!",
+    currentScore: 0,
+    highScore: 0
   };
 
+  //onclick function
   shuffle = id => {
-    console.log(id);
+    //console.log(id);
+    var notFound = true; 
 
-    this.setState({ score: this.state.scores.currentScore + 1 });
+    for(let j = 0; j < this.state.charactersClicked.length; j++) {
+      if (id === this.state.charactersClicked[j]) {
+        //if found set current score to 0 and empty array
+        //console.log("id matched!");
+        notFound = false;
+          this.setState({
+            currentScore: 0,
+            charactersClicked: [],
+            navMessage: "Ozai got you... "
+          });
+        //if current score is better than highScore update highscore
+        if(this.state.currentScore > this.state.highScore) {
+          this.setState({
+            highScore: this.state.currentScore,
+          });
+        }
+      }
+    }
 
+    //if id not found add id to array, update score, and update nav message
+    if (notFound) {
+      this.state.charactersClicked.push(id);
+      this.setState({ 
+        currentScore: this.state.currentScore + 1,
+        navMessage: "You're mastering the four elements!"
+      });
+    }
+
+    //shuffle function
     for (let i = characters.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1)); // random index from 0 to i
       [characters[i], characters[j]] = [characters[j], characters[i]]; // swap elements
@@ -29,12 +58,11 @@ class App extends Component {
     }
   }
 
-
   render() {
       return (
 
     <Wrapper>
-    <NavBar>{this.state.scores}</NavBar>
+    <NavBar>{[this.state.currentScore, this.state.highScore, this.state.navMessage]}</NavBar>
     <Jumbotron>card</Jumbotron>
 
     

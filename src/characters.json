@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Aang",
-    "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-avatar-the-last-airbender-zach-tyler.jpg"
+    "image": "./images/Aang.jpg"
   },
   {
     "id": 2,
@@ -93,5 +93,10 @@
     "id": 19,
     "name": "Zuko",
     "image": "./images/Zuko.jpg" 
+  },
+  {
+    "id": 20,
+    "name": "Combustion Man",
+    "image": "./Combustion.jpg"
   }
 ]
