@@ -1,55 +1,12 @@
 import React from "react";
 import "./style.css";
 
-function GameBoard(props) {
-    return (
-        <div class="container">
-            {/* <div class="row">
-                <div class="col-3">
-                1 of   3
-                </div>
-                <div class="col-3">
-                1 of   3
-                </div>
-                <div class="col-3">
-                1 of   3
-                </div>
-                <div class="col-3">
-                1 of   3
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                1 of   3
-                </div>
-                <div class="col-3">
-                1 of   3
-                </div>
-                <div class="col-3">
-                1 of   3
-                </div>
-                <div class="col-3">
-                1 of   3
-                </div>
-                
-            </div>
-            <div class="row">
-                <div class="col-3">
-                1 of   3
-                </div>
-                <div class="col-3">
-                1 of   3
-                </div>
-                <div class="col-3">
-                1 of   3
-                </div>
-                <div class="col-3">
-                1 of   3
-                </div>
-            
-            </div> */}
-        </div>
-    );
-}
+function GameBoard(props) { 
 
+    // return (
+    //     <div class="container">
+    return (
+        <div id={props.id} class="col-3 image-card "><img onClick={() => props.shuffle(props.id)} alt={props.name} src={props.image}/></div>
+    )
+}
 export default GameBoard;

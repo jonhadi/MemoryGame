@@ -7,7 +7,7 @@ function NavBar(props) {
         <div class="container">
         <h3>Memory Game</h3>
         <h3>Click an Image to Start</h3>
-        <a class="navbar-brand" href="#">Score: {props.children}</a>
+        <a class="navbar-brand" href="github.com">Score: {props.children.currentScore} Highscore: {props.children.highScore}</a>
 
         </div>
     </nav>
