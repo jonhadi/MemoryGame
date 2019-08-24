@@ -65,7 +65,7 @@ class App extends Component {
     <NavBar>{[this.state.currentScore, this.state.highScore, this.state.navMessage]}</NavBar>
     <Jumbotron>card</Jumbotron>
 
-    
+    <div class="container">
     {this.state.characters.map(characters => (
           <GameBoard
             shuffle={this.shuffle}
@@ -75,6 +75,7 @@ class App extends Component {
             image={characters.image}
           />
         ))}
+    </div>
     </Wrapper>
   );
 }
