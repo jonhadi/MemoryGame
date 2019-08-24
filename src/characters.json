@@ -2,101 +2,101 @@
   {
     "id": 1,
     "name": "Aang",
-    "image": "./images/Aang.jpg"
+    "image": "Images/Aang.png"
   },
   {
     "id": 2,
     "name": "Hama",
-    "image": "./images/Hama.png"
+    "image": "./../../images/Hama.png"
   },
   {
     "id": 3,
     "name": "Haru",
-    "image": "./images/Haru.png"
+    "image": "./../../images/Haru.png"
   },
   {
     "id": 4,
     "name": "Iroh",
-    "image": "./images/Iroh.png" 
+    "image": "./../../images/Iroh.png" 
   },
   {
     "id": 5,
     "name": "Jet",
-    "image": "./images/Jet.png" 
+    "image": "./../../images/Jet.png" 
   },
   {
     "id": 6,
     "name": "Katara",
-    "image": "./images/Katara.jpg"
+    "image": "./../../images/Katara.png"
   },
   {
     "id": 7,
     "name": "Bumi",
-    "image": "./images/King_Bumi.png" 
+    "image": "./../../images/King_Bumi.png" 
  },
   {
     "id": 8,
     "name": "Sokka",
-    "image": "./images/Sokka.jpg" 
+    "image": "./../../images/Sokka.jpg" 
   },
   {
     "id": 9,
     "name": "Mai",
-    "image": "./images/Mai.jpg" 
+    "image": "./../../images/Mai.jpg" 
   },
   {
     "id": 10,
     "name": "Long Feng",
-    "image": "./images/Long_Feng.png" 
+    "image": "./../../images/Long_Feng.png" 
   },
   {
     "id": 11,
     "name": "Ozia",
-    "image": "./images/Ozai.png"
+    "image": "./../../images/Ozai.png"
   },
   {
     "id": 12,
     "name": "Roku",
-    "image": "./images/Roku.png" 
+    "image": "./../../images/Roku.png" 
   },
   {
     "id": 13,
     "name": "Suki",
-    "image": "./images/Suki.png" 
+    "image": "./../../images/Suki.png" 
   },
   {
     "id": 14,
     "name": "Toph",
-    "image": "./images/Toph.png" 
+    "image": "./../../images/Toph.png" 
   },
   {
     "id": 15,
     "name": "Ty Lee",
-    "image": "./images/ty_lee.jpg" 
+    "image": "./../../images/ty_lee.jpg" 
   },
   {
     "id": 16,
     "name": "Pakku",
-    "image": "./images/Pakku.jpg" 
+    "image": "./../../images/Pakku.jpg" 
   },
   {
     "id": 17,
     "name": "Azula",
-    "image": "./images/Zulaa.jpg" 
+    "image": "./../../images/Azula.png" 
   },
   {
     "id": 18,
     "name": "Zhao",
-    "image": "./images/Zhao.png" 
+    "image": "./../../images/Zhao.png" 
   },
   {
     "id": 19,
     "name": "Zuko",
-    "image": "./images/Zuko.jpg" 
+    "image": "./../../images/Zuko.jpg" 
   },
   {
     "id": 20,
     "name": "Combustion Man",
-    "image": "./Combustion.jpg"
+    "image": "./../../Images/Boom.jpg"
   }
 ]
